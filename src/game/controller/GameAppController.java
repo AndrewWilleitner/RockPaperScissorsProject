@@ -8,6 +8,7 @@ public class GameAppController
 	private GameFrame baseFrame;
 	
 	
+	
 	public GameAppController()
 	{
 		baseFrame = new GameFrame(this);
@@ -17,4 +18,5 @@ public class GameAppController
 	{
 		GamePanel myAppPanel = (GamePanel) baseFrame.getContentPane();
 	}
+	
 }

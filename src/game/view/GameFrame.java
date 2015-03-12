@@ -16,8 +16,9 @@ public class GameFrame extends JFrame
 	
 	private void setupFrame()
 	{
-		this.setSize(400,400);
 		this.setContentPane(appPanel);
+		this.setSize(360,280);
+		this.setResizable(false);
 		this.setVisible(true);
 	}
 }
